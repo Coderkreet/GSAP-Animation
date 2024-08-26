@@ -1,0 +1,182 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+/* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+font-family: "Montserrat", sans-serif;
+
+
+}
+html , 
+body{
+height: 100%;
+width: 100%;
+
+}
+
+.Section1{
+height: auto;
+width: 100%;
+background: #ffffff;
+position: inherit;
+}
+
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 60px 50px;
+}
+
+.list{
+    display: flex;
+align-items: center;
+gap: 40px;
+
+}
+
+nav h1{
+    font-size: 2rem;
+
+}
+nav h1 i {
+    rotate: 45deg;
+    display: inline-block;
+}
+nav h4{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+nav button {
+    padding: 15px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    /* gap: 70px; */
+}
+
+/* hero Section css */
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 50px;
+    gap: 50px;
+    width: 90%;
+    margin: auto;
+    padding: auto;
+}
+
+.leftfirst{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    width: 50%;
+}
+
+.leftfirst h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.leftfirst p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.leftfirst button{
+ width: 250px;
+ height: 60px;
+color: rgb(255, 255, 255);
+background: #000;
+border-radius: 10px;
+}
+
+
+.hero-section img{
+    width: 45%;
+}
+
+
+.Company_Logo{
+    width: 90%;
+    padding: 60px 50px;
+display: flex;
+justify-content: space-between;
+margin: auto;
+}
+
+.Company_Logo img{
+    filter: grayscale(100%);
+
+}
+
+/* services Section 2 */
+
+.Section2{
+
+}
+
+.pt1{
+    display: flex;
+width: 70%;
+padding: 60px 50px;
+justify-content: center;
+align-items: center;
+column-gap: 40px;
+}
+
+.pt1 h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: greenyellow;
+    text-align: center;
+    width: 300px;
+    height:50px;
+}
+
+.services{
+    display: flex;
+    flex-wrap: wrap;
+  gap: 45px;
+  justify-content: center;
+  align-items: center;
+}
+
+.services .box{
+    /* background: red; */
+    width: 40%;
+    height: 300px;
+    border-radius: 50px;
+    box-shadow: 0px 20px 0px 0px black;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding:20px ;
+}
+
+.services .box img{
+    width: 200px;
+   height: 200px;
+}
+
+.box_Containt{
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+
+}
+
+.box_Containt p i {
+    background: #000;
+    color: white;
+   padding: 10px 10px;
+   border-radius: 50%;
+   
+}

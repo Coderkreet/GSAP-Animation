@@ -1,0 +1,77 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html , 
+body{
+height: 100%;
+width: 100%;
+overflow-x: hidden;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-image: url('https://images.unsplash.com/photo-1536250853075-e8504ee040b9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+   background-size: cover;
+   background-position: center;
+}
+
+nav{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 50px;
+    color: wheat;
+
+}
+
+nav i{
+    font-size: 30px;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+
+.full{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    background-color: rgba(245, 222, 179, 0.386);
+    top: 0;
+    right: -40%;
+    /* filter: blur(30px); */
+    backdrop-filter: blur(20px);
+}
+
+.full h4{
+    font-weight: 300;
+    font-size: 50px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.full h4:hover{
+    color: gray;
+}
+.full i {
+    position: absolute;
+    top: 5%;
+    right: 10%;
+  color: rgba(201, 199, 118, 0.589);
+   font-weight: 800;
+   font-size: 40px;
+   cursor: pointer;
+
+
+}

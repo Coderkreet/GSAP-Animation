@@ -1,0 +1,38 @@
+html,body{
+    background-color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cursor{
+width: 20px;
+height: 20px;
+background-color: aqua;
+border-radius: 50%;
+position: fixed;
+z-index: 2;
+
+}
+
+img{
+z-index: 1;
+}
+
+/* The CSS rule `body { background-color: black; }` is setting the background color of the entire
+webpage to black. This means that the background color behind all the content on the webpage,
+including the main content area and any other elements, will be black. */
